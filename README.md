@@ -105,3 +105,5 @@ describe('App', () => {
 ```
 
 # Rest of repo is example of this setup
+
+Again, if you want a deeper explanation, go check out [Robin Wieruch's guide](https://www.robinwieruch.de/vitest-react-testing-library/)
