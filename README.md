@@ -1,5 +1,7 @@
 # quick vitest setup for React
 
+## A compressed, and quick command guide following [Robin Wieruch's guide on settting up Vitest with RTL](https://www.robinwieruch.de/vitest-react-testing-library/)
+
 ### install packages
 
 ```
