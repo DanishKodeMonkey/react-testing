@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App component > renders danish Kode Monkey 1`] = `
+<div>
+  <button
+    type="button"
+  >
+    Click me
+  </button>
+  <h1>
+    danish Kode Monkey
+  </h1>
+</div>
+`;

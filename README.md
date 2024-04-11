@@ -2,10 +2,15 @@
 
 ## A compressed, and quick command guide following [Robin Wieruch's guide on settting up Vitest with RTL](https://www.robinwieruch.de/vitest-react-testing-library/)
 
+Only addition made is the inclusion of @testing-library/user-event
+[This is a companion library for the testing library, used to simulate user interactions through dispatching of events.](https://testing-library.com/docs/user-event/intro/)
+
+-   TL;DR - It's great for testing user interactions on the components. E.g button clicks.
+
 ### install packages
 
 ```
-npm install vitest jsdom @testing-library/react @testing-library/jest-dom --save-dev
+npm install vitest jsdom @testing-library/react @testing-library/jest-dom @testing-library/user-event --save-dev
 ```
 
 ### update package.json
@@ -106,4 +111,10 @@ describe('App', () => {
 
 # Rest of repo is example of this setup
 
+The setup has been used on this repo, and example uses of some tests can be found in App.test.jsx
+
+### Closing words
+
 Again, if you want a deeper explanation, go check out [Robin Wieruch's guide](https://www.robinwieruch.de/vitest-react-testing-library/)
+
+And a detailed explanation of user-events can be found [here](https://testing-library.com/docs/user-event/intro/)
